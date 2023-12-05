@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* start header */
+.header {
+    position: absolute;
+    z-index: 9999;
+    background-color: transparent;
+    width: 100%;
+}
+img.img-fluid.header-logo {
+    width: 89px;
+}
+
+@media(max-width: 768px) {
+    .header {
+        position: relative;
+        background-color: #fff;
+    }
+    .header-logo{
+        width: 70px;
+        font-weight: bold;
+        color: black;
+    }
+    
+}
+
+@media(min-width: 767px) {
+
+}
+.navbar-nav{
+    display: flex;
+    gap: 5rem;
+}
+
+/* end header */
+.home-about {
+    width: 90px;
+    height: 782px;
+}
+
+.bar {
+    display: flex;
+    margin-left: 4rem;
+    gap: 9rem;
+    text-decoration: none;
+}
+
+/* .bar a{
+    text-decoration: none;
+    color: black;
+} */
+/* @media(min-width: 768px){
+    .bar p{
+        display: flex;
+        margin-left: 4rem;
+        gap: 9rem;
+        text-decoration: none;
+    }
+} */
+
+/* .nav-tag{
+        display: flex;
+    margin-left: 4rem;
+    gap: 4rem;
+    text-decoration: none;
+} */
+/* nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+.checkbtn{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media(max-width:952px){
+    label.logo{
+        font-size: 30px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media(max-width:858px){
+   .checkbtn{
+    display: block;
+   }
+   ul{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+   }
+   nav ul li{
+    display: block  ;
+   }
+}
+@media(max-width:768px){
+.menu{
+    display: none;
+}
+} */

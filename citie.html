@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cities.html</title>
+</head>
+
+<body>
+    <h1>Fixing capitalzation</h1>
+    <div class="output">
+        <ul>
+
+        </ul>
+    </div>
+
+
+    <script>
+        const list = document.querySelector('.outputul');
+        list.innerHTML = '';
+        let cities = ['mumbai' , 'delhi' , 'jaipur' , 'goa'];
+
+
+        for (let i = 0; i < cities.length; i++) {
+            let firstAlphabet = cities[i].slice(0, 1);
+            let lowercasecity = cities[i].toLowerCase();
+            lowercasecity = lowercasecity.replace(firstalphabet,firstAlphabet.toUppercase());
+            let listItem = document.createElement('Li');
+            listItem.textContent = lowercasecity;
+            list.appendChild(listItem);
+        }
+    </script>
+</body>
+
+</html>
